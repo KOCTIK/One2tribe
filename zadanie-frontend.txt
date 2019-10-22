@@ -1,0 +1,36 @@
+﻿Poniżej propozycja zadania:
+
+Poprosimy o stworzenie aplikacji front-endowej implementującej 3 end-pointy api REST:
+
+/api/authenticate - logowanie username/password
+metoda: POST
+postać: {username: "wartość_login", password: "wartość_pass"}
+zwraca odpowiedni kod rezultatu i nagłówek JWT
+
+/api/v1/item - lista elementów tekstowych (dostęp po zalogowaniu)
+metoda: GET
+zwraca odpowiedni kod rezultatu i dokument JSON z listą elementów lub komunikatem błędu
+
+/api/v1/item - dodawanie niepustego elementu tekstowego (dostęp po zalogowaniu, walidacja client-side, obsługa błędu walidacji zwracanego przez server-side)
+metoda: POST
+postać: {name: "wartość"}
+zwraca odpowiedni kod rezultatu i dokument JSON z dodanym elementem lub komunikatem błędu
+
+Aplikacja powinna zawierać 2 widoki i odpowiedni routing między nimi:
+logowanie
+listę elementów z formularzem do dodawania
+
+Szczegóły dostępu do API REST:
+adres: http://frontend-recruitment.one2tribe.pl:8080
+
+login:  HfeuLkzJ 
+hasło:  QckqvxYE9Ajd 
+
+Prosimy o wykonanie aplikacji z wykorzystaniem 1 z frameworków:
+Angular (preferowany)
+React JS
+i dostarczenie jej w postaci kodu źródłowego pozwalającego na jej zbudowanie.
+
+Prosimy również o kilka zdań opisujących użyte środowisko pracy przy wykonywaniu zadania. 
+
+---------------------------------------------------------------------------------------
